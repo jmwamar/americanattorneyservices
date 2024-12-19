@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+ 
 :root {
     --primary: #40627c;
     --light: #F0FBFC;
@@ -22,7 +22,7 @@
 }
 
 
-/*** Spinner ***/
+ 
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -36,13 +36,15 @@
     opacity: 1;
 }
 
-
-/*** Button ***/
+ 
 .btn {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
 }
+.btn-blue{padding: 1em;background: #052368;color: white;}
+
+.btn-red{padding: 1em;background: #ba1e30;color: white;}
 
 .btn.btn-primary,
 .btn.btn-secondary {
@@ -437,20 +439,28 @@
     font-size: 24px;
 }
 .img-fluid{max-height: 600px!important;}
+
 .text-blue{  color:#40627c;}
+
 .text-red{color:red;}
+
 .color-white{color:white;}
+
 .border-blue{border:2px solid #181d38b3;}
-.btn-blue{padding: 1em;background: #052368;color: white;}
-.btn-red{padding: 1em;background: #ba1e30;color: white;}
+
 .bg-blue{background-color: #072236;}
+
 .item-container{height: 250px;}
+
 .bgpatt{background: linear-gradient(135deg, #ffffff80 50%, transparent 0),linear-gradient(-135deg, #ffffff80 50%, transparent 0);
         background-size: 6em 6em;
         background-color: #efefef;
         opacity: 1}
+        
 .paynow{border: 2px solid #40627c;padding: 6px;}
+
 .course-item:hover{background-color: #0f3c5e;color:white;cursor: pointer;}
+
 @media only screen and (max-width: 600px) {
     
     .d-mob-none{display: none;}
