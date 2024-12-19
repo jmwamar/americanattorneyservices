@@ -438,6 +438,7 @@
 }
 .img-fluid{max-height: 600px!important;}
 .text-blue{  color:#40627c;}
+.text-red{color:red;}
 .color-white{color:white;}
 .border-blue{border:2px solid #181d38b3;}
 .btn-blue{padding: 1em;background: #052368;color: white;}
@@ -448,3 +449,4 @@
         background-color: #efefef;
         opacity: 1}
 .paynow{border: 2px solid #40627c;padding: 6px;}
+.course-item:hover{background-color: #0f3c5e;color:white;cursor: pointer;}

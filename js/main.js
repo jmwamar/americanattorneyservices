@@ -104,6 +104,67 @@
             }
         }
     });
+
+    $('.course-item').on('click',function(){
+        var value = $(this).data('value');
+        if(value!=''){
+            $('#urgency').val(value);
+            $('#first_name').focus();
+        }
+    });
+
+    $('#btnsubmitquote').on('click',function(){
+        var error = 0;
+        if($('#first_name').val() == ''){error = 1;}
+        if($('#txtemail').val() == ''){error = 1;}
+        if($('#txtprio option:selected').val() == ''){error = 1;}
+        if($('#txtcity').val() == ''){error = 1;}
+
+
+        if(error == 0){
+            var form = $('#formquote').serialize();
+            $.ajax({
+                type: 'POST',
+                url: './sendmail.php',
+                data: form,
+                success: function(data) {
+                   alert(data);
+                   $('#formmsg')[0].reset();
+                },
+                error: function(xhr, status, error) {
+                  alert('Error on Sending');
+                }
+            });    
+        }else{
+            alert('Please fill the required fields!')
+        }
+    });
+    $('#sendmsg').on('click',function(){
+        var error = 0;
+        if($('#name2').val() == ''){error = 1;}
+        if($('#email2').val() == ''){error = 1;} 
+        if($('#subject').val() == ''){error = 1;}
+        if($('#message').val() == ''){error = 1;}
+
+
+        if(error == 0){
+            var form = $('#formmsg').serialize();
+            $.ajax({
+                type: 'POST',
+                url: './sendmail2.php',
+                data: form,
+                success: function(data) {
+                   alert(data);
+                   $('#formmsg')[0].reset();
+                },
+                error: function(xhr, status, error) {
+                  alert('Error on Sending');
+                }
+            });    
+        }else{
+            alert('Please fill the required fields!')
+        }
+    });
     
 })(jQuery);
 
