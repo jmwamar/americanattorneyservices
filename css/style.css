@@ -451,3 +451,8 @@
         opacity: 1}
 .paynow{border: 2px solid #40627c;padding: 6px;}
 .course-item:hover{background-color: #0f3c5e;color:white;cursor: pointer;}
+@media only screen and (max-width: 600px) {
+    
+    .d-mob-none{display: none;}
+    
+}
