@@ -1,0 +1,541 @@
+<!DOCTYPE html> 
+
+<head>
+    <meta charset="utf-8">
+    <title>American Attorney Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description"> 
+    <link href="img/mainlogo.png" rel="icon"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div> 
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h3 class="m-0 page-title"><img class="me-2" src="img/mainlogo.png" style="height: 60px;"><span class="d-mob-none">American Attorney Services</span></h3>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#services" class="nav-item nav-link">Services</a>
+                <a href="#about" class="nav-item nav-link">About</a>  
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="philosophy.php" class="dropdown-item">Philosophy</a>
+                        <a href="coverage.php" class="dropdown-item">Areas of Coverage</a>
+                        <a href="servedcorp.php" class="dropdown-item">Regularly Served Corporations</a>
+                    </div>
+                </div>
+            </div>
+        <!--     <a href="paynow.php" class="btn py-3  d-lg-block"><div class="paynow">Pay Now <span style="color:#606be4;font-style: italic;font-weight: bold;">Stripe</span> </div></i></a> -->
+        </div>
+    </nav> 
+
+    <div class="container-fluid p-0 mb-5" id="home">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg2.jpg" alt="" style="width: 100%;height: 100%;">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);width: 50vw !important;">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-12 col-lg-12 ps-lg-5">
+                                <h1 class="display-3 text-white animated slideInDown fw-bold">How are we Different?</h1>
+                                <p class="fs-5 text-white ps-2 ">Speed of Service</p>
+                                <p class="fs-5 text-white ps-2 ">Accuracy of Process</p>
+                                <p class="fs-5 text-white ps-2 ">Cost-effectiveness of Pricing</p> 
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Order Service
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="height: 15px;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg3.jpg" alt="" style="width: 100%;height: 100%;">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);width: 50vw !important;">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-12 col-lg-12 ps-lg-5">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown"></h5>
+                                <h1 class="display-3 text-white animated fw-bold slideInDown">No more DELAYS!</h1>  
+                                <p class="fs-5 text-white mb-4 pb-2">Providing clients with the best service and price in the Chicagoland area and Nationwide.</p>
+                                
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Order Service 
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="height: 15px;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+                          </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Pricing Start -->
+    <div class="container-xxl py-5"  >
+        <div class="container">
+            
+            <div class="row ">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h3 class="section-title bg-white text-center text-blue px-3">URGENCY LEVEL</h3> 
+                        <div>
+                            We offer prompt and reliable process serving for legal documents, ensuring secure and timely delivery. Our team operates with professionalism and confidentiality, meeting all legal requirements.
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-center pt-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp  " data-wow-delay="0.1s">
+                            <div class="course-item" data-value="Sameday"> 
+                                <div class="text-center p-4 border-blue">
+                                    <h5 class="mb-0 border-bottom pb-2">SAME DAY</h5>  
+                                    <div class="mb-1 mt-2">Get a Quote</div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
+                            <div class="course-item " data-value="Rush"> 
+                                <div class="text-center p-4 border-blue">
+                                    <h5 class="mb-0 border-bottom pb-2">RUSH</h5>  
+                                    <div class="mb-1 mt-2">Get a Quote</div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.5s">
+                            <div class="course-item " data-value="Routine"> 
+                                <div class="text-center p-4 border-blue">
+                                    <h5 class="mb-0 border-bottom pb-2">ROUTINE</h5>  
+                                    <div class="mb-1 mt-2">Get a Quote</div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12  ">
+                            <div class="course-item " data-value=""> 
+                                <div class="text-center p-4 border-blue">
+                                    <h5 class="mb-0 border-bottom pb-2">Registered Agent Services</h5>  
+                                    <div class="mt-1" style="font-size: 16px;text-align: left;">
+                                        <strong><i class="fa fa-check me-1 text-red"></i>CT Corp:</strong> 208 S La Salle St Suite 814, Chicago, IL 60604 
+                                        <div ><strong ><i class="fa fa-check me-1 text-red"></i>Corporate Creations Network and United Agent Group, Inc.: </strong> <br><span class="ms-4">350 S. Northwest Highway #300. Park Ridge, IL 60068.</span></div>
+                                        <strong><i class="fa fa-check me-1 text-red"></i>MS Registered Agents:</strong> 191 N Upper Wacker Dr STE 1800 Chicago, IL 60606<br>
+                                        <strong><i class="fa fa-check me-1 text-red"></i>Corporation Service Company:</strong> 801 Adlai Stevenson Dr, Springfield, IL 62703<br>
+                                        <strong><i class="fa fa-check me-1 text-red"></i>Accepting Corporate and Individual Services in the Chicago Metro area.</strong>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="border-blue">
+                        <div class="h-full bg-cover bg-no-repeat bg-center " style="background-image: url('img/bg2.jpg');    background-size: cover;">
+                            <div class=" p-lg-4 p-sm-3 " style="background-color: #181d38b3;color:white;">
+                              <h5 class="p">Process Serving</h5>
+                              <p class="text-base font-light">Process serving is a legal support service where a trained individual, known as a process server, delivers legal documents to individuals involved in a court case</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-start p-4 border-2 border-t-0 border-orange-500  shadow-sm bg-transparent">
+                            <div class="flex flex-col w-full mb-3">
+                                <h4 class="">Request Quote</h4>
+                                <p class="text-xs lg:text-sm font-light font-['Ubuntu']">Fillup the form is target Area is not on our Serviced Counties.</p>
+                            </div>
+                            <div class="w-full">
+                            <form action="" id="formquote">
+                                <div class="row">
+                                    <div class="mb-3 col-lg-6 col-sm-12">
+                                        <label for="" class="mb-1 text-sm lg:text-base">Name</label>
+                                        <input type="text" name="name" id="first_name" class="form-control" placeholder="John Doe" required="">
+                                    </div>
+                                    <div class="mb-3 col-lg-6 col-sm-12">
+                                        <label for="" class="mb-1 text-sm lg:text-base">Email</label>
+                                        <input type="text" id="txtemail" name="email" class="form-control" placeholder="John@gmail.com" required="">
+                                    </div>
+                                    <div class="mb-3 col-12">
+                                        <label for="dropdown-phone-button" class="mb-1 text-sm lg:text-base">Enter Phone Number</label>
+                                        <span class="flex items-center bg-white">
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg fill="none" aria-hidden="true" class="h-4 w-4 me-2" viewBox="0 0 20 15" style="    height: 15px;"><rect width="19.6" height="14" y=".5" fill="#fff" rx="2"></rect><mask id="a" style="mask-type:luminance" width="20" height="15" x="0" y="0" maskUnits="userSpaceOnUse"><rect width="19.6" height="14" y=".5" fill="#fff" rx="2"></rect></mask><g mask="url(#a)"><path fill="#D02F44" fill-rule="evenodd" d="M19.6.5H0v.933h19.6V.5zm0 1.867H0V3.3h19.6v-.933zM0 4.233h19.6v.934H0v-.934zM19.6 6.1H0v.933h19.6V6.1zM0 7.967h19.6V8.9H0v-.933zm19.6 1.866H0v.934h19.6v-.934zM0 11.7h19.6v.933H0V11.7zm19.6 1.867H0v.933h19.6v-.933z" clip-rule="evenodd"></path><path fill="#46467F" d="M0 .5h8.4v6.533H0z"></path><g filter="url(#filter0_d_343_121520)"><path fill="url(#paint0_linear_343_121520)" fill-rule="evenodd" d="M1.867 1.9a.467.467 0 11-.934 0 .467.467 0 01.934 0zm1.866 0a.467.467 0 11-.933 0 .467.467 0 01.933 0zm1.4.467a.467.467 0 100-.934.467.467 0 000 .934zM7.467 1.9a.467.467 0 11-.934 0 .467.467 0 01.934 0zM2.333 3.3a.467.467 0 100-.933.467.467 0 000 .933zm2.334-.467a.467.467 0 11-.934 0 .467.467 0 01.934 0zm1.4.467a.467.467 0 100-.933.467.467 0 000 .933zm1.4.467a.467.467 0 11-.934 0 .467.467 0 01.934 0zm-2.334.466a.467.467 0 100-.933.467.467 0 000 .933zm-1.4-.466a.467.467 0 11-.933 0 .467.467 0 01.933 0zM1.4 4.233a.467.467 0 100-.933.467.467 0 000 .933zm1.4.467a.467.467 0 11-.933 0 .467.467 0 01.933 0zm1.4.467a.467.467 0 100-.934.467.467 0 000 .934zM6.533 4.7a.467.467 0 11-.933 0 .467.467 0 01.933 0zM7 6.1a.467.467 0 100-.933.467.467 0 000 .933zm-1.4-.467a.467.467 0 11-.933 0 .467.467 0 01.933 0zM3.267 6.1a.467.467 0 100-.933.467.467 0 000 .933zm-1.4-.467a.467.467 0 11-.934 0 .467.467 0 01.934 0z" clip-rule="evenodd"></path></g></g><defs><linearGradient id="paint0_linear_343_121520" x1=".933" x2=".933" y1="1.433" y2="6.1" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"></stop><stop offset="1" stop-color="#F0F0F0"></stop></linearGradient><filter id="filter0_d_343_121520" width="6.533" height="5.667" x=".933" y="1.433" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset dy="1"></feOffset><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"></feColorMatrix><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_343_121520"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_343_121520" result="shape"></feBlend></filter></defs></svg> +1 
+                                                    </span> 
+                                                <input aria-describedby="basic-addon1" name="contact" type="text" id="txtphone" class="form-control " pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required="">
+                                            </div> 
+                                        </span>
+                                    </div>
+                                    <div class="mb-3 col-lg-6 col-sm-12"> 
+                                        <label for="urgency" class=" ">Urgency Level</label>
+                                        <select id="urgency" class="form-control" name="priority" id="txtprio">
+                                          <option value="" selected="">Choose a Priority Level</option>
+                                          <option value="Routine">Routine</option>
+                                          <option value="Rush">Rush</option>
+                                          <option value="Sameday">Sameday</option> 
+                                        </select> 
+                                    </div>
+                                    <div class="mb-3 col-lg-6 col-sm-12">  
+                                        <label for="website-admin" class="">City &amp; Zip</label>
+                                        <input type="text" id="txtcity" name="city" class="form-control" placeholder="Kingston, 6035"> 
+                                    </div>
+                                    <div class="col-lg-6 col-sm-2">
+                                      <button class="btn btn-red w-100" id="btnsubmitquote">Submit Quote</button>
+                                    </div> 
+                                </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5" id="services">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="text-center wow fadeInUp mb-3" data-wow-delay="0.1s">
+                        <h3 class="section-title bg-white text-center text-blue px-3">SERVICES</h3>  
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4 item-container">
+                            <i class="fa fa-3x fa-file text-blue mb-4"></i>
+                            <h5 class="mb-3">Service of Civil Process</h5>
+                            <p>A crucial legal service that ensures the proper delivery of legal documents to involved parties in civil litigation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4 item-container">
+                            <i class="fa fa-3x fa-envelope-open text-blue mb-4"></i>
+                            <h5 class="mb-3">Legal Messenger</h5>
+                            <p>With a focus on accuracy and timeliness, this service ensures that important legal materials are transported securely.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4 item-container">
+                            <i class="fa fa-3x fa-lock text-blue mb-4"></i>
+                            <h5 class="mb-3">Notary Public</h5>
+                            <p>Preventing fraud and ensuring the authenticity of signatures on legal documents, such as contracts, deeds, and affidavits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item  pt-3">
+                        <div class="p-4 item-container">
+                            <div class="text-center">
+                            <i class="fa fa-3x fa-book-open text-blue mb-4"></i>
+                            </div>
+                            <ul style="padding-left:10px;">
+                                <li>Nationwide Process Service. (All 50 States and Puerto Rico)</li>
+                                <li>Out of State Forwarding Agent</li>
+                                <li>Illinois Notary Public</li> 
+                            </ul> 
+                            <br/>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item  pt-3">
+                        <div class="p-4 item-container">
+                            <div class="text-center">
+                            <i class="fa fa-3x fa-briefcase text-blue mb-4"></i>
+                            </div>
+                            <div>Service of Illinois Court Summons and Complaints by Appointment as a Special Process Server</div>
+                            <br/>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4 item-container">
+                            <i class="fa fa-3x fa-archive text-blue mb-4"></i>
+                            <h5 class="mb-3">Receipt of Documents</h5>
+                            <p>We will gladly accept documents by email or by mail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class=" py-5 bg-blue color-white" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h4 class="pe-3">About Us</h4> 
+                    <p class="mb-4">American Attorney Services is a fully insured legal support firm whose focus is the service of civil process on corporations as well as individuals in the Chicago area and Nationwide.</p>
+                    <p class="mb-4"><b>Our Mission:</b> To provide our clients the highest level of legal support, by serving, delivering and completing each job in a timely, professional and efficient manner.</p>
+                    <h4 class=" pe-3 mb-2">About the Owner – Mike Noble</h4>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-lg-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-red me-2"></i>Nineteen years of active experience serving thousands of legal documents with an unblemished record.</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-red me-2"></i>Former City of Boston Constable and owner of Boston Corporate Attorney Services.</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-red me-2"></i>Degree in Business from Barry University, Miami Shores, FL.</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-red me-2"></i>Fluent in Spanish</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-red me-2"></i>Online Classes</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-red me-2"></i>Independent Process Server over the age of 18 years old. Not doing business as a Illinois Private Detective.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h4 class="section-title bg-white text-center text-blue px-3">Testimonial</h4>
+                <h1 class="mb-5">Here's what our satisfied clients are saying</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/user1.png" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client</h5>
+                    <p>Testomonials</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I recently had the pleasure of working with Mike, a process server and legal professional, and I couldn't be more impressed with his services.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/user2.png" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client</h5>
+                    <p>Testomonials</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Mike was incredibly fast and efficient in delivering important legal documents. </p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/user3.png" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client</h5>
+                    <p>Testomonials</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">His professionalism was top-notch!</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/user4.png" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client</h5>
+                    <p>Testomonials</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">He made the entire process smooth and stress-free, and I would highly recommend him to anyone in need of a process server.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+ 
+    <!-- Contact Start -->
+    <div class="container-xxl py-5" id="contact">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h4 class="section-title bg-white text-center text-blue px-3">Contact Us</h4> 
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5>Get In Touch</h5>
+                    <p class="mb-4">Email, Call or Complete the form to keep in touch with us. We love talking to you!</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-blue" style="width: 50px; height: 50px;">
+                            <i class="fa fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Office</h5>
+                            <p class="mb-0">1706 Northfield Sq. Unit B, Northfield, IL 60093</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-blue" style="width: 50px; height: 50px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Mobile</h5>
+                            <p class="mb-0">206-718-1680</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-blue" style="width: 50px; height: 50px;">
+                            <i class="fa fa-envelope-open text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Email</h5>
+                            <p class="mb-0"><a href="mailto:mnoblepcas@gmail.com">mnoblepcas@gmail.com</a>; <a href="mailto:americanattorneyserve@duck.com">americanattorneyserve@duck.com</a></p>
+                            <p class="mb-0">Backup Email: <a href="mailto:mnoble11@hotmail.com">mnoble11@hotmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <iframe class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.436123846219!2d-87.77150222390416!3d42.098129571218415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fc42cfd7bcec7%3A0xff0a7160b08f54de!2s1706%20Northfield%20Square%20APT%20B%2C%20Northfield%2C%20IL%2060093%2C%20USA!5e0!3m2!1sen!2sph!4v1734507253100!5m2!1sen!2sph" width="600" height="450" style="border:0;min-height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                </div>
+                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <form id="formmsg">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="name" id="name2" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email2" name="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" name="message" id="message" style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-red w-100 py-3" type="button" id="sendmsg">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+ 
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="index.php#about">About Us</a>
+                    <a class="btn btn-link" href="index.php#contact">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4> 
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1706 Northfield Sq. Unit B, Northfield, IL 60093</p>
+                   
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>206-718-1680</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>mnoblepcas@gmail.com</p>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Owner / Operator</h4>
+                    <p class="mb-2"><i class="fa fa-user me-3"></i>Mike Noble</p>
+                    <p class="mb-2"><i class="fa fa-building me-3"></i>Offices in Chicago, Northfield, Deerfield, Gurnee</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">American Attorney Services</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/jquery.waypoints.min.js"></script>
+
+    <script src="https://cdn.bootcss.com/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+ 
+    <script src="js/main.js"></script>
+            <script type="text/javascript">
+            jQuery(document).ready(function () {
+                $('.nav-link').on('click', function (e) {
+                    e.preventDefault();  
+
+                    const targetId = $(this).attr('href'); 
+                    const targetOffset = $(targetId).offset().top; 
+ 
+                    $('html, body').animate({
+                        scrollTop: targetOffset
+                    }, 800); 
+                });
+            });
+        </script> 
+</body>
+
+<.php>
