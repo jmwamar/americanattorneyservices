@@ -1,0 +1,178 @@
+<!DOCTYPE html> 
+<head>
+    <meta charset="utf-8">
+    <title>American Attorney Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description"> 
+    <link href="img/mainlogo.png" rel="icon"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div> 
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+             <h3 class="m-0 page-title"><img class="me-2" src="img/mainlogo.png" style="height: 60px;"><span class="d-mob-none">American Attorney Services</span></h3>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.php#home" class="nav-item nav-link active">Home</a>
+                <a href="index.php#services" class="nav-item nav-link">Services</a>
+                <a href="index.php#about" class="nav-item nav-link">About</a>  
+                <a href="index.php#contact" class="nav-item nav-link">Contact</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="philosophy.php" class="dropdown-item">Philosophy</a>
+                        <a href="coverage.php" class="dropdown-item">Areas of Coverage</a>
+                        <a href="servedcorp.php" class="dropdown-item">Regularly Served Corporations</a>
+                    </div>
+                </div>
+            </div>
+            <a href="paynow.php" class="btn py-3  d-lg-block"><div class="paynow">Pay Now <span style="color:#606be4;font-style: italic;font-weight: bold;">Stripe</span> </div></i></a>
+        </div>
+    </nav> 
+
+    <div class="container-xxl py-5"  >
+        <div class="container">
+            
+            <div class="row ">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h3 class="section-title bg-white text-center text-blue px-3">REGURLARLY SERVED CORPORATIONS</h3> 
+                        <div>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-4 justify-content-center pt-4">
+                        <div class="col-lg-12 col-md-12  " >
+                            <div class="course-item "> 
+                                <div class="text-center p-4 border-blue">
+                                    <h5 class="mb-0 border-bottom pb-2">Nationwide Forwarding Agent</h5>  
+                                    <div class="mt-1" style="font-size: 16px;text-align: left;">
+                                        <i class="fa fa-check me-1 text-red"></i>servectcorpandagents.com<br/><br/> 
+                                        <i class="fa fa-check me-1 text-red"></i>Service to All Corporate Entities in the Chicago Area.<br/><br/> 
+                                        <i class="fa fa-check me-1 text-red"></i>All CT Corp. Services @ 208 S LaSalle Street 17th Floor – Chicago, IL<br/><br/> 
+                                        <i class="fa fa-check me-1 text-red"></i>Allstate Insurance Company – Northbrook, IL<br/><br/> 
+                                        <i class="fa fa-check me-1 text-red"></i>Citibank, N.A. – Park Ridge, IL<br/><br/> 
+                                        <i class="fa fa-check me-1 text-red"></i>HSBC Finance – Arlington Heights, IL<br/><br/> 
+                                        <i class="fa fa-check me-1 text-red"></i>Oasis Legal Finance, LLC – Rosemont, IL<br/><br/> 
+                                        <i class="fa fa-check me-1 text-red"></i>Life Fitness Corp. – Rosemont, IL
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-4 justify-content-center pt-4">
+                        <div class="col-lg-12 col-md-12  " >
+                            <div class="course-item "> 
+                                <div class="text-center p-4 border-blue">
+                                    <h5 class="mb-0 border-bottom pb-2">Nationwide Forwarding Agent</h5>  
+                                    <div class="mt-1" style="font-size: 16px;text-align: left;">
+                                        <i class="fa fa-check me-1 text-red"></i>Culligan International – Rosemont, IL<br/><br/> 
+
+                                        <i class="fa fa-check me-1 text-red"></i>Fortress Insurance Company – Rosemont, IL<br/><br/> 
+
+                                        <i class="fa fa-check me-1 text-red"></i>Illinois Tool Works Inc. – Glenview, IL<br/><br/> 
+
+                                        <i class="fa fa-check me-1 text-red"></i>U.S. Freightways Logistics, Inc. – Glenview, IL<br/><br/> 
+
+                                        <i class="fa fa-check me-1 text-red"></i>Citibank, N.A. – Park Ridge, IL<br/><br/> 
+
+                                        <i class="fa fa-check me-1 text-red"></i>Walgreens – Deerfield, IL<br/><br/> 
+
+                                        <i class="fa fa-check me-1 text-red"></i>Wheels, Inc. – Des Plaines, IL<br/><br/> 
+
+                                        <i class="fa fa-check me-1 text-red"></i>Zurich Insurance – Schaumburg, IL<br/><br/> 
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="index.php#about">About Us</a>
+                    <a class="btn btn-link" href="index.php#contact">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4> 
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1706 Northfield Sq. Unit B, Northfield, IL 60093</p>
+                   
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>206-718-1680</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>mnoblepcas@gmail.com</p>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Owner / Operator</h4>
+                    <p class="mb-2"><i class="fa fa-user me-3"></i>Mike Noble</p>
+                    <p class="mb-2"><i class="fa fa-building me-3"></i>Offices in Chicago, Northfield, Deerfield, Gurnee</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">American Attorney Services</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/jquery.waypoints.min.js"></script> 
+ 
+    <script src="js/main.js"></script>
+</body>
+
+<.php>
